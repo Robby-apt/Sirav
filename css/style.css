@@ -1,0 +1,118 @@
+/*
+    font-family: 'Niconne', cursive;
+*/
+
+/* Importing google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Niconne&family=Roboto&display=swap');
+
+
+/* General styling */
+*{
+    font-family: Roboto, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+
+    max-width: 100vw;
+}
+
+a{
+    color: inherit;
+    text-decoration: none;
+}
+
+p{
+    margin: 0;
+    padding: 0;
+}
+
+.webSection{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+
+    max-width: 100vw;
+    min-height: 100vh;
+}
+
+
+/* Home section styling */
+#home{
+    background-image: url(../images/vania-shows-N1I6IgDOGJs-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+}
+
+.overlay{
+    background-color: rgba(0, 0, 0, .6);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+
+    max-width: 100vw;
+    min-height: 100vh;
+}
+
+.mainBody{
+    /* background-color: rosybrown; */
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    padding: 0;
+
+    width: 98vw;
+    height: 90vh;
+}
+
+.watermark{
+    color: rgba(46, 196, 182, .2);
+    font-size: 4rem;
+}
+
+.firstWatermark{
+    margin: 0 auto auto 1.25rem;
+}
+
+.promptArea{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.heading{
+    font-size: 6rem;
+    font-weight: bold;
+}
+
+.description{
+    font-size: 2.25rem;
+    font-weight: bold;
+}
+
+.callToAction{
+    display: flex;
+    margin: 1.25rem auto;
+}
+
+.sampleBtn{
+    border: #fff solid 0.3125rem;
+    font-size: 1.5rem;
+    margin: auto;
+    padding: 0.3125rem 1.25rem;
+}
+
+
+.secondWatermark{
+    margin: auto 1.25rem 0 auto;
+}
