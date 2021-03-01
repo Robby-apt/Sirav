@@ -27,6 +27,7 @@
 
         <!-- Cutom scripts -->
         <script src="scripts/main.js" defer></script>
+        <script src="scripts/contact.js" defer></script>
 
         <title>SIRAV BEATS</title>
     </head>
@@ -89,6 +90,49 @@
 
         <div class="webSection" id="sample"></div>
 
-        <div class="webSection" id="contact"></div>
+        <div class="webSection" id="contact">
+            <p class="prompt">Do you enjoy what you hear and want your own beat?</p>
+
+            <p class="invite">Contact me so we can work together</p>
+
+            <div class="contactSection">
+                <div class="socialMediaSection">
+                    <div class="account">
+                        <i class="fab fa-facebook-f"></i>
+                        <a href="">Siravi Khaoya</a>
+                    </div>
+
+                    <div class="account">
+                        <i class="fab fa-instagram"></i>
+                        <a href="">Siravi_Khaoya</a>
+                    </div>
+
+                    <div class="account">
+                        <i class="far fa-envelope"></i>
+                        <a href="">ryansarabbi@gmail.com </a>
+                    </div>
+                </div>
+
+                <div class="contactFormSection">
+                    <form action="" method="POST" id="contactForm">
+                        <label for="name">Name:</label>
+                        <input type="text" name="name" id="nameInput">
+                        <label for="email">Email:</label>
+                        <input type="email" name="email" id="emailInput">
+                        <label for="message">Message:</label>
+                        <textarea name="message" id="messageInput" cols="20" rows="5"></textarea>
+                        <input type="hidden" name="_gotcha">
+                        <button id="submitBtn" class="actionBtn">Send Message</button>
+                        <div id="statusNoti" class="sentNoti"></div>
+                    </form>
+                </div>
+            </div>
+
+            <p class="conclusion">Remember, music is food for the soul</p>
+
+            <footer>
+                <p>Designed by <a href="https://robby-apt.github.io/Personal-website/" target="_blank">Robin.</a> All Rights Reserved</p>
+            </footer>
+        </div>
     </body>
 </html>
