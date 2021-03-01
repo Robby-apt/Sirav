@@ -11,6 +11,7 @@
 
 body{
     box-sizing: border-box;
+    font-size: 1.25rem;
     margin: 0;
     padding: 0;
     scroll-behavior: smooth;
@@ -194,4 +195,105 @@ p{
 
 .secondWatermark{
     margin: auto 1.25rem 0 auto;
+}
+
+
+/* Contact section styling */
+#contact{
+    background-color: #011627;
+    color: #fff;
+}
+
+.prompt{
+    margin: 1.25rem auto;
+}
+
+.invite{
+    margin: 0 auto;
+}
+
+.contactSection{
+    background-image: url(../images/mohammad-metri-1oKxSKSOowE-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    margin: auto auto 0;
+
+    width: 50%;
+}
+
+.socialMediaSection{
+    background-color: rgba(0, 0, 0, .6);
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
+
+.account{
+    color: #2ec4b6;
+    margin: auto;
+}
+
+.fab,
+.far{
+    font-size: 3rem;
+    margin-right: 1rem;
+}
+
+.contactFormSection{
+    background-color: rgba(10, 57, 68, .6);
+    display: flex;
+    flex: 1;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+label{
+    margin: 1.25rem 0 0.625rem;
+}
+
+input{
+    border: none;
+    border-radius: 0.9375rem;
+    font-size: 1.125rem;
+    padding: 0.625rem;
+
+    width: 17.1875rem;
+    height: 1.875rem;
+}
+
+textarea{
+    border: none;
+    border-radius: 0.3125rem;
+    font-size: 1.125rem;
+    padding: 0.625rem;
+}
+
+.actionBtn{
+    background-color: rgba(0, 0, 0, 0);
+    border: 0.25rem #fff solid;
+    border-radius: 1.5rem;
+    color: #fff;
+    font-weight: bold;
+    margin: 1.25rem auto;
+    padding: 0.3125rem 1.25rem;
+}
+
+.conclusion{
+    margin: auto;
+}
+
+footer{
+    background-color: rgba(46, 196, 182, .3);
+    text-align: center;
+}
+
+footer p{
+    font-size: 1.125rem;
+    padding: 0.3125rem;
 }
