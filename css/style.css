@@ -198,6 +198,35 @@ p{
 }
 
 
+/* Samples section styling */
+#sample{
+    background-color: #011627;
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+}
+
+.sampleSubsection{
+    display: flex;
+    flex: 1;
+}
+
+.currentlyPlaying{
+    background-color: rgba(46, 196, 182, .2);
+    flex-direction: column;
+}
+
+.currentMusic{
+    background-image: url(../images/frank-septillion-Qrspubmx6kE-unsplash.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    width: 91.5625%;
+    height: 49.791666667%;
+}
+
+
 /* Contact section styling */
 #contact{
     background-color: #011627;
